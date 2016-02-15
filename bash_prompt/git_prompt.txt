@@ -1,0 +1,5 @@
+## Git Prompt
+## Add to .profile or .bashrc
+## BASH color codes: http://www.tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
+source ~/.config/git_prompt.sh
+PS1='\[\e[0;32m\]\u@\h:\w$ \[\e[0m\]\[\e[1;32m\]$(__git_ps1 " %s ")\[\e[0m\]'
